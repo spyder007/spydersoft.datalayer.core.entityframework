@@ -2,12 +2,12 @@
 using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
-using mgSoft.DataLayer.Core;
-using mgSoft.DataLayer.Core.Attributes;
+using spyderSoft.DataLayer.Core;
+using spyderSoft.DataLayer.Core.Attributes;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace mgSoft.DataLayer.Core.EntityFramework
+namespace spyderSoft.DataLayer.Core.EntityFramework
 {
     /// <summary>
     /// Abstract class DynamicDbContext.  Implementations of this class are required to use the <see cref="DataStore"/> class.

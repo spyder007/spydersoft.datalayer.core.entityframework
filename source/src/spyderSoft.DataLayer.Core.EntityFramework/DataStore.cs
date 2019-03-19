@@ -1,13 +1,13 @@
-﻿using mgSoft.DataLayer.Core.Attributes;
+﻿using spyderSoft.DataLayer.Core.Attributes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
-using mgSoft.DataLayer.Core;
+using spyderSoft.DataLayer.Core;
 using Microsoft.EntityFrameworkCore;
 
-namespace mgSoft.DataLayer.Core.EntityFramework
+namespace spyderSoft.DataLayer.Core.EntityFramework
 {
     /// <summary>
     /// <see cref="IDataStore"/> implementation which utilizes the EntityFramework for data storage and retrieval

@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FC9FBE16-BB7A-42F1-915B-1D1E93B2F81E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mgSoft.DataLayer.Core.EntityFramework", "src\mgSoft.DataLayer.Core.EntityFramework\mgSoft.DataLayer.Core.EntityFramework.csproj", "{C23D1922-23DF-496B-9DD3-706982EFE787}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "spyderSoft.DataLayer.Core.EntityFramework", "src\spyderSoft.DataLayer.Core.EntityFramework\spyderSoft.DataLayer.Core.EntityFramework.csproj", "{C23D1922-23DF-496B-9DD3-706982EFE787}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

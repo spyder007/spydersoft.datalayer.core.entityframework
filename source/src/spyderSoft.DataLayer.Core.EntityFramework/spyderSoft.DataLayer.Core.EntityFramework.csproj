@@ -2,17 +2,17 @@
   <PropertyGroup>
     <VersionPrefix>1.0.5</VersionPrefix>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <AssemblyName>mgSoft.DataLayer.Core.EntityFramework</AssemblyName>
-    <PackageId>mgSoft.DataLayer.Core.EntityFramework</PackageId>
+    <AssemblyName>spyderSoft.DataLayer.Core.EntityFramework</AssemblyName>
+    <PackageId>spyderSoft.DataLayer.Core.EntityFramework</PackageId>
     <NetStandardImplicitPackageVersion>2.0.0</NetStandardImplicitPackageVersion>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="mgSoft.DataLayer.Core" Version="1.0.*" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.0.0" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="2.0.0" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="2.2.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.3" />
+    <PackageReference Include="spyderSoft.DataLayer.Core" Version="1.0.30" />
   </ItemGroup>
 </Project>

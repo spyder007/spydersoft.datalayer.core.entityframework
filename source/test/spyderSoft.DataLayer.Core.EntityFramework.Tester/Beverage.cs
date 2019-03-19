@@ -1,11 +1,11 @@
-﻿using mgSoft.DataLayer.Core;
-using mgSoft.DataLayer.Core.Attributes;
+﻿using spyderSoft.DataLayer.Core;
+using spyderSoft.DataLayer.Core.Attributes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace mgSoft.DataLayer.Core.EntityFramework.Tester
+namespace spyderSoft.DataLayer.Core.EntityFramework.Tester
 {
     /// <summary>
     /// Class Beverage.

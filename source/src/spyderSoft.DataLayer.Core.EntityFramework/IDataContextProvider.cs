@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 
-namespace mgSoft.DataLayer.Core.EntityFramework
+namespace spyderSoft.DataLayer.Core.EntityFramework
 {
     /// <summary>
     /// Interface IDataContextProvider.  Implementations of this interface must be injected in to <see cref="DataStore"/> via the constructor

@@ -1,14 +1,14 @@
-﻿using mgSoft.DataLayer.Core;
-using mgSoft.DataLayer.Core.EntityFramework;
+﻿using spyderSoft.DataLayer.Core;
+using spyderSoft.DataLayer.Core.EntityFramework;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace mgSoft.DataLayer.Core.EntityFramework.Tester
+namespace spyderSoft.DataLayer.Core.EntityFramework.Tester
 {
-    public class DataContext : mgSoft.DataLayer.Core.EntityFramework.DynamicDbContext
+    public class DataContext : spyderSoft.DataLayer.Core.EntityFramework.DynamicDbContext
     {
         public DataContext(DbContextOptions options) : base(options)
         {

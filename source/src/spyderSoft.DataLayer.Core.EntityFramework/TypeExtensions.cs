@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace mgSoft.DataLayer.Core.EntityFramework
+namespace spyderSoft.DataLayer.Core.EntityFramework
 {
     /// <summary>
     /// Class TypeExtensions.  This class is a helper class to assist in reflection against generic methods, which
