@@ -19,10 +19,8 @@ namespace spyderSoft.DataLayer.Core.EntityFramework
     /// </remarks>
     public abstract class DynamicDbContext : DbContext
     {
-        /// <summary>
-        /// Initializes a new instance of the <see cref="DynamicDbContext"/> class.
-        /// </summary>
-        /// <param name="connectionString">The connection string.</param>
+        /// <summary>Initializes a new instance of the <see cref="T:spyderSoft.DataLayer.Core.EntityFramework.DynamicDbContext"/> class.</summary>
+        /// <param name="options">And instance of <see cref="DbContextOptions"/> that can be used to initiate the DynamicDbContext.</param>
         protected DynamicDbContext(DbContextOptions options) : base(options)
         {
         }

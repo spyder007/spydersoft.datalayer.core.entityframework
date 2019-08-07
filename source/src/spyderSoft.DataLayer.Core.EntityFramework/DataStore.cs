@@ -25,7 +25,6 @@ namespace spyderSoft.DataLayer.Core.EntityFramework
         /// <summary>
         /// Initializes a new instance of the <see cref="DataStore" /> class.
         /// </summary>
-        /// <param name="dataStorePath">on this implementation dataStorePath is a connection string [used to instantiate an IDataContextProvider]</param>
         /// <param name="dataContextProvider">The <see cref="IDataContextProvider"/> used to provide the <see cref="DbContext"/> for various items.</param>
         /// <exception cref="System.Exception">Database does not exist.</exception>
         public DataStore(IDataContextProvider dataContextProvider)
