@@ -31,7 +31,7 @@ jobs:
       run: echo "VERSION=$(git describe --tags --dirty)" >> $GITHUB_ENV
     - name: Set release version
       if: ${{ github.event.action == 'published' && !github.event.release.draft}}
-      run:  TAG=$(git describe --tags); if [ github.event.release.prerelease ]; then RELEASE="-prerelease"; else  RELEASE="";  fi; echo "VERSION=${TAG}${RELEASE}" >> $GITHUB_ENV
+      run:  TAG=$(git describe --tags); if github.event.release.prerelease; then RELEASE="-prerelease"; else  RELEASE="";  fi; echo "VERSION=${TAG}${RELEASE}" >> $GITHUB_ENV
     - name: Package
       run: dotnet pack --output ./artifacts --configuration Release --no-build --no-restore -p:Version=$VERSION
       working-directory: ./source
