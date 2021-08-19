@@ -4,6 +4,8 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
+[![Build Status][build-shield]][build-url]
+[![Code Climate Score][codeclimate-shield]][codeclimate-url]
 
 ## Spydersoft.Datalayer.Core.EntityFramework
 
@@ -23,3 +25,7 @@ Documentation for this library can be found in the repository's [documentation](
 [license-url]: https://github.com/spyder007/spydersoft.datalayer.core.entityframework/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/geregam
+[build-shield]: https://img.shields.io/github/workflow/status/spyder007/spydersoft.datalayer.core.entityframework/Library%20Build%20and%20Publish?style=for-the-badge
+[build-url]: https://github.com/spyder007/spydersoft.datalayer.core.entityframework/actions/workflows/dotnet-core.yml
+[codeclimate-shield]: https://img.shields.io/codeclimate/maintainability/spyder007/spydersoft.datalayer.core.entityframework?style=for-the-badge
+[codeclimate-url]: https://codeclimate.com/github/spyder007/spydersoft.datalayer.core.entityframework
